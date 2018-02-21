@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A7752B1AF9F162C9E7219C /* libPods-coreLocationRunning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC5B9AF10E2B7CDA558938F /* libPods-coreLocationRunning.a */; };
+		7F298B131FDF50D800247AAB /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F298B121FDF50D800247AAB /* GoogleSignIn.framework */; };
+		7F298B161FDF50EA00247AAB /* GGLCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F298B141FDF50EA00247AAB /* GGLCore.framework */; };
+		7F298B171FDF50EA00247AAB /* GGLSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F298B151FDF50EA00247AAB /* GGLSignIn.framework */; };
+		7F298B191FDF510700247AAB /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F298B181FDF510700247AAB /* FirebaseAnalytics.framework */; };
+		7F298B1B1FDF513700247AAB /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F298B1A1FDF513700247AAB /* FirebaseCore.framework */; };
+		7F298B1F1FDF516B00247AAB /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F298B1E1FDF516B00247AAB /* FirebaseInstanceID.framework */; };
+		7F298B211FDF59FE00247AAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F298B201FDF59FE00247AAB /* GoogleService-Info.plist */; };
+		7F5AE0DD1FDF72A400F3A7A6 /* RunDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5AE0DC1FDF72A400F3A7A6 /* RunDetailsViewController.m */; };
+		7F85AFC91FCFA56C002522BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F85AFC81FCFA56C002522BE /* main.m */; };
+		7F85AFCC1FCFA56C002522BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F85AFCB1FCFA56C002522BE /* AppDelegate.m */; };
+		7F85AFCF1FCFA56C002522BE /* RunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F85AFCE1FCFA56C002522BE /* RunViewController.m */; };
+		7F85AFD21FCFA56D002522BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F85AFD01FCFA56D002522BE /* Main.storyboard */; };
+		7F85AFD41FCFA56D002522BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F85AFD31FCFA56D002522BE /* Assets.xcassets */; };
+		7F85AFD71FCFA56D002522BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F85AFD51FCFA56D002522BE /* LaunchScreen.storyboard */; };
+		7F85AFE21FCFA56D002522BE /* coreLocationRunningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F85AFE11FCFA56D002522BE /* coreLocationRunningTests.m */; };
+		7F85AFED1FCFA56D002522BE /* coreLocationRunningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F85AFEC1FCFA56D002522BE /* coreLocationRunningUITests.m */; };
+		7F85AFFC1FD61154002522BE /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F85AFFB1FD61154002522BE /* Run.m */; };
+		7F85AFFF1FD611C0002522BE /* RunModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F85AFFE1FD611C0002522BE /* RunModel.m */; };
+		7F85B0021FD611F4002522BE /* RunTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F85B0011FD611F4002522BE /* RunTableViewController.m */; };
+		7F85B0051FD61749002522BE /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F85B0041FD61749002522BE /* AddViewController.m */; };
+		7F85B0081FD62096002522BE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F85B0071FD62096002522BE /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F85AFDE1FCFA56D002522BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F85AFBC1FCFA56C002522BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F85AFC31FCFA56C002522BE;
+			remoteInfo = coreLocationRunning;
+		};
+		7F85AFE91FCFA56D002522BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F85AFBC1FCFA56C002522BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F85AFC31FCFA56C002522BE;
+			remoteInfo = coreLocationRunning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1778AF1D1EE783B17C7E1868 /* Pods-coreLocationRunning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coreLocationRunning.release.xcconfig"; path = "Pods/Target Support Files/Pods-coreLocationRunning/Pods-coreLocationRunning.release.xcconfig"; sourceTree = "<group>"; };
+		202A3405D00E7DD13CF60321 /* Pods-coreLocationRunning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coreLocationRunning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coreLocationRunning/Pods-coreLocationRunning.debug.xcconfig"; sourceTree = "<group>"; };
+		2CC5B9AF10E2B7CDA558938F /* libPods-coreLocationRunning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coreLocationRunning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F298B121FDF50D800247AAB /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		7F298B141FDF50EA00247AAB /* GGLCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLCore.framework; path = Pods/Google/Frameworks/GGLCore.framework; sourceTree = "<group>"; };
+		7F298B151FDF50EA00247AAB /* GGLSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GGLSignIn.framework; path = Pods/Google/Frameworks/GGLSignIn.framework; sourceTree = "<group>"; };
+		7F298B181FDF510700247AAB /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		7F298B1A1FDF513700247AAB /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Pods/FirebaseCore/Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		7F298B1C1FDF514D00247AAB /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		7F298B1E1FDF516B00247AAB /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		7F298B201FDF59FE00247AAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F5AE0DB1FDF72A400F3A7A6 /* RunDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunDetailsViewController.h; sourceTree = "<group>"; };
+		7F5AE0DC1FDF72A400F3A7A6 /* RunDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunDetailsViewController.m; sourceTree = "<group>"; };
+		7F85AFC41FCFA56C002522BE /* coreLocationRunning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreLocationRunning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F85AFC81FCFA56C002522BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F85AFCA1FCFA56C002522BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F85AFCB1FCFA56C002522BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F85AFCD1FCFA56C002522BE /* RunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunViewController.h; sourceTree = "<group>"; };
+		7F85AFCE1FCFA56C002522BE /* RunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunViewController.m; sourceTree = "<group>"; };
+		7F85AFD11FCFA56D002522BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F85AFD31FCFA56D002522BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F85AFD61FCFA56D002522BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F85AFD81FCFA56D002522BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F85AFDD1FCFA56D002522BE /* coreLocationRunningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreLocationRunningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F85AFE11FCFA56D002522BE /* coreLocationRunningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreLocationRunningTests.m; sourceTree = "<group>"; };
+		7F85AFE31FCFA56D002522BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F85AFE81FCFA56D002522BE /* coreLocationRunningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreLocationRunningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F85AFEC1FCFA56D002522BE /* coreLocationRunningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreLocationRunningUITests.m; sourceTree = "<group>"; };
+		7F85AFEE1FCFA56D002522BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F85AFFA1FD61154002522BE /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
+		7F85AFFB1FD61154002522BE /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
+		7F85AFFD1FD611C0002522BE /* RunModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunModel.h; sourceTree = "<group>"; };
+		7F85AFFE1FD611C0002522BE /* RunModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunModel.m; sourceTree = "<group>"; };
+		7F85B0001FD611F4002522BE /* RunTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTableViewController.h; sourceTree = "<group>"; };
+		7F85B0011FD611F4002522BE /* RunTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTableViewController.m; sourceTree = "<group>"; };
+		7F85B0031FD61748002522BE /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		7F85B0041FD61749002522BE /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		7F85B0071FD62096002522BE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F85AFC11FCFA56C002522BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F298B1F1FDF516B00247AAB /* FirebaseInstanceID.framework in Frameworks */,
+				7F298B1B1FDF513700247AAB /* FirebaseCore.framework in Frameworks */,
+				7F298B191FDF510700247AAB /* FirebaseAnalytics.framework in Frameworks */,
+				7F298B161FDF50EA00247AAB /* GGLCore.framework in Frameworks */,
+				7F298B171FDF50EA00247AAB /* GGLSignIn.framework in Frameworks */,
+				7F298B131FDF50D800247AAB /* GoogleSignIn.framework in Frameworks */,
+				7F85B0081FD62096002522BE /* MapKit.framework in Frameworks */,
+				75A7752B1AF9F162C9E7219C /* libPods-coreLocationRunning.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F85AFDA1FCFA56D002522BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F85AFE51FCFA56D002522BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F85AFBB1FCFA56C002522BE = {
+			isa = PBXGroup;
+			children = (
+				7F85AFC61FCFA56C002522BE /* coreLocationRunning */,
+				7F85AFE01FCFA56D002522BE /* coreLocationRunningTests */,
+				7F85AFEB1FCFA56D002522BE /* coreLocationRunningUITests */,
+				7F85AFC51FCFA56C002522BE /* Products */,
+				7F85B0061FD62096002522BE /* Frameworks */,
+				F17F9473412C885D716A5889 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7F85AFC51FCFA56C002522BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F85AFC41FCFA56C002522BE /* coreLocationRunning.app */,
+				7F85AFDD1FCFA56D002522BE /* coreLocationRunningTests.xctest */,
+				7F85AFE81FCFA56D002522BE /* coreLocationRunningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F85AFC61FCFA56C002522BE /* coreLocationRunning */ = {
+			isa = PBXGroup;
+			children = (
+				7F298B201FDF59FE00247AAB /* GoogleService-Info.plist */,
+				7F85B0091FD63B33002522BE /* Model */,
+				7F85B00B1FD63B3E002522BE /* Controller */,
+				7F85B00A1FD63B39002522BE /* View */,
+				7F85AFD31FCFA56D002522BE /* Assets.xcassets */,
+				7F85AFC71FCFA56C002522BE /* Supporting Files */,
+			);
+			path = coreLocationRunning;
+			sourceTree = "<group>";
+		};
+		7F85AFC71FCFA56C002522BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F85AFCA1FCFA56C002522BE /* AppDelegate.h */,
+				7F85AFCB1FCFA56C002522BE /* AppDelegate.m */,
+				7F85AFD81FCFA56D002522BE /* Info.plist */,
+				7F85AFC81FCFA56C002522BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F85AFE01FCFA56D002522BE /* coreLocationRunningTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F85AFE11FCFA56D002522BE /* coreLocationRunningTests.m */,
+				7F85AFE31FCFA56D002522BE /* Info.plist */,
+			);
+			path = coreLocationRunningTests;
+			sourceTree = "<group>";
+		};
+		7F85AFEB1FCFA56D002522BE /* coreLocationRunningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F85AFEC1FCFA56D002522BE /* coreLocationRunningUITests.m */,
+				7F85AFEE1FCFA56D002522BE /* Info.plist */,
+			);
+			path = coreLocationRunningUITests;
+			sourceTree = "<group>";
+		};
+		7F85B0061FD62096002522BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F298B1E1FDF516B00247AAB /* FirebaseInstanceID.framework */,
+				7F298B1C1FDF514D00247AAB /* Pods */,
+				7F298B1A1FDF513700247AAB /* FirebaseCore.framework */,
+				7F298B181FDF510700247AAB /* FirebaseAnalytics.framework */,
+				7F298B141FDF50EA00247AAB /* GGLCore.framework */,
+				7F298B151FDF50EA00247AAB /* GGLSignIn.framework */,
+				7F298B121FDF50D800247AAB /* GoogleSignIn.framework */,
+				7F85B0071FD62096002522BE /* MapKit.framework */,
+				2CC5B9AF10E2B7CDA558938F /* libPods-coreLocationRunning.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F85B0091FD63B33002522BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F85AFFA1FD61154002522BE /* Run.h */,
+				7F85AFFB1FD61154002522BE /* Run.m */,
+				7F85AFFD1FD611C0002522BE /* RunModel.h */,
+				7F85AFFE1FD611C0002522BE /* RunModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7F85B00A1FD63B39002522BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F85AFD01FCFA56D002522BE /* Main.storyboard */,
+				7F85AFD51FCFA56D002522BE /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7F85B00B1FD63B3E002522BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F85AFCD1FCFA56C002522BE /* RunViewController.h */,
+				7F85AFCE1FCFA56C002522BE /* RunViewController.m */,
+				7F5AE0DB1FDF72A400F3A7A6 /* RunDetailsViewController.h */,
+				7F5AE0DC1FDF72A400F3A7A6 /* RunDetailsViewController.m */,
+				7F85B0001FD611F4002522BE /* RunTableViewController.h */,
+				7F85B0011FD611F4002522BE /* RunTableViewController.m */,
+				7F85B0031FD61748002522BE /* AddViewController.h */,
+				7F85B0041FD61749002522BE /* AddViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F17F9473412C885D716A5889 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				202A3405D00E7DD13CF60321 /* Pods-coreLocationRunning.debug.xcconfig */,
+				1778AF1D1EE783B17C7E1868 /* Pods-coreLocationRunning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F85AFC31FCFA56C002522BE /* coreLocationRunning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F85AFF11FCFA56D002522BE /* Build configuration list for PBXNativeTarget "coreLocationRunning" */;
+			buildPhases = (
+				1E1057573559BC5AC372EE7E /* [CP] Check Pods Manifest.lock */,
+				7F85AFC01FCFA56C002522BE /* Sources */,
+				7F85AFC11FCFA56C002522BE /* Frameworks */,
+				7F85AFC21FCFA56C002522BE /* Resources */,
+				173DC6D0AE0CD1DF03DC99DE /* [CP] Embed Pods Frameworks */,
+				99DA06DF34919CE0FB673C85 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coreLocationRunning;
+			productName = coreLocationRunning;
+			productReference = 7F85AFC41FCFA56C002522BE /* coreLocationRunning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F85AFDC1FCFA56D002522BE /* coreLocationRunningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F85AFF41FCFA56D002522BE /* Build configuration list for PBXNativeTarget "coreLocationRunningTests" */;
+			buildPhases = (
+				7F85AFD91FCFA56D002522BE /* Sources */,
+				7F85AFDA1FCFA56D002522BE /* Frameworks */,
+				7F85AFDB1FCFA56D002522BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F85AFDF1FCFA56D002522BE /* PBXTargetDependency */,
+			);
+			name = coreLocationRunningTests;
+			productName = coreLocationRunningTests;
+			productReference = 7F85AFDD1FCFA56D002522BE /* coreLocationRunningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F85AFE71FCFA56D002522BE /* coreLocationRunningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F85AFF71FCFA56D002522BE /* Build configuration list for PBXNativeTarget "coreLocationRunningUITests" */;
+			buildPhases = (
+				7F85AFE41FCFA56D002522BE /* Sources */,
+				7F85AFE51FCFA56D002522BE /* Frameworks */,
+				7F85AFE61FCFA56D002522BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F85AFEA1FCFA56D002522BE /* PBXTargetDependency */,
+			);
+			name = coreLocationRunningUITests;
+			productName = coreLocationRunningUITests;
+			productReference = 7F85AFE81FCFA56D002522BE /* coreLocationRunningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F85AFBC1FCFA56C002522BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Martha Wolnicki";
+				TargetAttributes = {
+					7F85AFC31FCFA56C002522BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A6K927W4MS;
+						ProvisioningStyle = Automatic;
+					};
+					7F85AFDC1FCFA56D002522BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A6K927W4MS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F85AFC31FCFA56C002522BE;
+					};
+					7F85AFE71FCFA56D002522BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A6K927W4MS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F85AFC31FCFA56C002522BE;
+					};
+				};
+			};
+			buildConfigurationList = 7F85AFBF1FCFA56C002522BE /* Build configuration list for PBXProject "coreLocationRunning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F85AFBB1FCFA56C002522BE;
+			productRefGroup = 7F85AFC51FCFA56C002522BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F85AFC31FCFA56C002522BE /* coreLocationRunning */,
+				7F85AFDC1FCFA56D002522BE /* coreLocationRunningTests */,
+				7F85AFE71FCFA56D002522BE /* coreLocationRunningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F85AFC21FCFA56C002522BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F298B211FDF59FE00247AAB /* GoogleService-Info.plist in Resources */,
+				7F85AFD71FCFA56D002522BE /* LaunchScreen.storyboard in Resources */,
+				7F85AFD41FCFA56D002522BE /* Assets.xcassets in Resources */,
+				7F85AFD21FCFA56D002522BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F85AFDB1FCFA56D002522BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F85AFE61FCFA56D002522BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		173DC6D0AE0CD1DF03DC99DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coreLocationRunning/Pods-coreLocationRunning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E1057573559BC5AC372EE7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coreLocationRunning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99DA06DF34919CE0FB673C85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-coreLocationRunning/Pods-coreLocationRunning-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coreLocationRunning/Pods-coreLocationRunning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F85AFC01FCFA56C002522BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F85AFCF1FCFA56C002522BE /* RunViewController.m in Sources */,
+				7F85AFFF1FD611C0002522BE /* RunModel.m in Sources */,
+				7F85AFFC1FD61154002522BE /* Run.m in Sources */,
+				7F85B0051FD61749002522BE /* AddViewController.m in Sources */,
+				7F85AFCC1FCFA56C002522BE /* AppDelegate.m in Sources */,
+				7F85AFC91FCFA56C002522BE /* main.m in Sources */,
+				7F85B0021FD611F4002522BE /* RunTableViewController.m in Sources */,
+				7F5AE0DD1FDF72A400F3A7A6 /* RunDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F85AFD91FCFA56D002522BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F85AFE21FCFA56D002522BE /* coreLocationRunningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F85AFE41FCFA56D002522BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F85AFED1FCFA56D002522BE /* coreLocationRunningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F85AFDF1FCFA56D002522BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F85AFC31FCFA56C002522BE /* coreLocationRunning */;
+			targetProxy = 7F85AFDE1FCFA56D002522BE /* PBXContainerItemProxy */;
+		};
+		7F85AFEA1FCFA56D002522BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F85AFC31FCFA56C002522BE /* coreLocationRunning */;
+			targetProxy = 7F85AFE91FCFA56D002522BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F85AFD01FCFA56D002522BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F85AFD11FCFA56D002522BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F85AFD51FCFA56D002522BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F85AFD61FCFA56D002522BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F85AFEF1FCFA56D002522BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F85AFF01FCFA56D002522BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F85AFF21FCFA56D002522BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202A3405D00E7DD13CF60321 /* Pods-coreLocationRunning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6K927W4MS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Pods/GoogleSignIn/Frameworks",
+					"$(PROJECT_DIR)/Pods/Google/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseCore/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks",
+				);
+				INFOPLIST_FILE = coreLocationRunning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = USC.coreLocationRunning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F85AFF31FCFA56D002522BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1778AF1D1EE783B17C7E1868 /* Pods-coreLocationRunning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6K927W4MS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Pods/GoogleSignIn/Frameworks",
+					"$(PROJECT_DIR)/Pods/Google/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseCore/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks",
+				);
+				INFOPLIST_FILE = coreLocationRunning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = USC.coreLocationRunning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F85AFF51FCFA56D002522BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A6K927W4MS;
+				INFOPLIST_FILE = coreLocationRunningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = USC.coreLocationRunningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coreLocationRunning.app/coreLocationRunning";
+			};
+			name = Debug;
+		};
+		7F85AFF61FCFA56D002522BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A6K927W4MS;
+				INFOPLIST_FILE = coreLocationRunningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = USC.coreLocationRunningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coreLocationRunning.app/coreLocationRunning";
+			};
+			name = Release;
+		};
+		7F85AFF81FCFA56D002522BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A6K927W4MS;
+				INFOPLIST_FILE = coreLocationRunningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = USC.coreLocationRunningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = coreLocationRunning;
+			};
+			name = Debug;
+		};
+		7F85AFF91FCFA56D002522BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A6K927W4MS;
+				INFOPLIST_FILE = coreLocationRunningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = USC.coreLocationRunningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = coreLocationRunning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F85AFBF1FCFA56C002522BE /* Build configuration list for PBXProject "coreLocationRunning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F85AFEF1FCFA56D002522BE /* Debug */,
+				7F85AFF01FCFA56D002522BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F85AFF11FCFA56D002522BE /* Build configuration list for PBXNativeTarget "coreLocationRunning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F85AFF21FCFA56D002522BE /* Debug */,
+				7F85AFF31FCFA56D002522BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F85AFF41FCFA56D002522BE /* Build configuration list for PBXNativeTarget "coreLocationRunningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F85AFF51FCFA56D002522BE /* Debug */,
+				7F85AFF61FCFA56D002522BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F85AFF71FCFA56D002522BE /* Build configuration list for PBXNativeTarget "coreLocationRunningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F85AFF81FCFA56D002522BE /* Debug */,
+				7F85AFF91FCFA56D002522BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F85AFBC1FCFA56C002522BE /* Project object */;
+}
